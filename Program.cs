@@ -32,7 +32,7 @@ namespace _17
             Console.WriteLine();
         }
 
-        static List<int> InitialList(int length)
+        static List<int> InputList(int length)
         {
             List<int> list = new List<int>(length);
             for(int i = 0; i < length; i++)
@@ -56,7 +56,7 @@ namespace _17
 
         static void Main(string[] args)
         {
-            List<int> list = InitialList(Size());
+            List<int> list = InputlList(Size());
             OutputList(list);
 
             Insert10(list);
